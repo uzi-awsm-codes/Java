@@ -1,0 +1,15 @@
+
+14.Write a program that reads details about number of admissions per year of a particular college, return the year which had maximum admissions. The details are stored in an arraylist with the first index being year and next being admissions count.
+
+15.    Read student details from the User. The details would include name, mark in the given order. The datatype for name is string, mark is float.Create a hashmap. The hashmap contains name as key and mark as value.
+1. If Mark is less than 60, then grade is FAIL.
+2. If Mark is greater than or equal to 60, then grade is PASS.
+Note: FAIL/PASS should be in uppercase.
+Store the result in a new Hashmap with name as Key and grade as value.
+4. Write a function calculateGrade which takes the above hashmap as input and returns the hashmap as output. 
+
+
+
+
+
+

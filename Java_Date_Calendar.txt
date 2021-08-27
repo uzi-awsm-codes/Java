@@ -1,0 +1,120 @@
+1. Write a program to read Date of Joining and current date as Strings and Experience as integer and validate whether the given experience and calculated experience are the
+same. Print “true” if same, else “false”.
+Input and Output Format:
+Input consists of 2 strings and an integer, where the 2 strings corresponds to the date of
+joining and current date, and the integer is the experience.
+Output is either “true” or “false”.
+Refer sample output for formatting specifications.
+Sample Input 1:
+11/01/2010
+01/09/2014
+4
+Sample Output 1:
+true
+Sample Input 2:
+11/06/2009
+01/09/2014
+4
+Sample Output2:
+False
+
+2. Given an input as HashMap which contains key as the ID and dob as value of employees, write a program to find out employees eligible for retirement. A person is eligible for retirement if his age is greater than or equal to 60. Assume that the current date is 01/01/2014.
+ Define a  static method “retirementEmployeeList” that accepts a HashMap<String,String> as input and returns a ArrayList<String>. In this method, add the Employee IDs of all the retirement eligible persons to list and return the sorted list.
+(Assume date is in dd/MM/yyyy format).
+Sample Input :
+4
+C1010
+02/11/1987
+C2020
+15/02/1980
+C3030
+14/12/1952
+T4040
+20/02/1950
+ 
+Sample Output :
+[C3030, T4040]
+
+3.     Read Employee details from the User. The details would include name and designaton in the given order. The datatype for name and designation is string. Build a hashmap which contains the name as key and designation as value.
+    You decide to write a function obtainDesignation which takes the hashmap and designation as input and returns a string array of employee names who belong to that designation as output. Include this function in class UserMainCode.
+Create a Class Main which would be used to read employee details in step 1 and build the hashmap.
+Sample Input 1:
+4
+Manish
+MGR
+Babu
+CLK
+Rohit
+MGR
+Viru
+PGR
+MGR
+
+Sample Output 1:
+Manish
+Rohit
+
+4. Given a date string as input, write a program to validate if the given date is in any of the following formats:
+dd.MM.yyyy
+dd/MM/yy
+dd-MM-yyyy
+
+5. Write a program to read a string and check if it starts with '_ix' where '_' is any one char(a-z, A-Z, 0-9).
+
+6. Write a program to read a string and validate whether the given string is a valid color code
+based on the following rules:
+- Must start with "#" symbol
+- Must contain six characters after #
+- It may contain alphabets from A-F or digits from 0-9
+
+7. Given a phone number as string, validate the same based on the following rules.
+
+1. Value should contain only numbers.
+2. Value should contain 10 digits.
+3. Value should not start with 00.
+
+8. Given a phone number as a string input, write a program to verify whether the phone number is valid using the following business rules:
+-It should contain only numbers or dashes (-)
+- dashes may appear at any position
+-Should have exactly 10 digits
+
+9. Write a program to read a string containing date in DD/MM/YYYY format and check if its a leap year. If so, return true else return false.
+
+
+
+11.Write a program to read two strings and check whether or not they have dashes in the same places. Print “Yes” if the condition satisfies, else print “No”.
+Sample Input 1:
+hi—there-you.
+12--(134)-7539
+Sample Output 1:
+Yes
+ Sample Input 2:
+-15-389
+-xyw-zzy
+Sample Output 2:
+No
+
+12. Write a code get a password as string input and validate using the rules specified below. Apply following validations:
+ 
+1. Minimum length should be 8 characters
+2. Must contain any one of these three special characters @ or _ or #
+3. May contain numbers or alphabets.
+4. Should not start with special character or number
+5. Should not end with special character
+
+13. Given a string (s) apply the following rules.
+1. String should be only four characters long.
+2. First character can be an alphabet or digit.
+3. Second character must be uppercase 'R'.
+4. Third character must be a number between 0-9.
+If all the conditions are satisifed then print TRUE else print FALSE.
+
+14. Write a program to read a string and check if it complies to the pattern 'CPT-XXXXXX' where XXXXXX is a 6 digit number. If the pattern is followed, then print TRUE else print FALSE.
+
+15.Given a string (s)  apply the following rules.
+I)At least 8 characters must be present
+II)At least one capital letter must be present
+III)At least one small letter must be present
+Iv)At least one special symbol must be present
+V)At least one numeric value must be present
+If the condition is satisifed then print valid else print invalid.
